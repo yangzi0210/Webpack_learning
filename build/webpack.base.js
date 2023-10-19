@@ -58,7 +58,7 @@ module.exports = {
         },
         generator: {
           // 文件输出目录和命名
-          filename: "static/img/[name][ext]",
+          filename: "static/img/[name].[contenthash:8][ext]",
         },
       },
       {
